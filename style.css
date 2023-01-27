@@ -114,4 +114,11 @@ h3:hover,
 span:hover{
     color: cyan;
 }
-
+@media screen and (max-width: 280px){
+    .main-card {
+        max-width: 100%
+    }
+    .main-img {
+        max-width: 100%;
+    }
+}
